@@ -171,8 +171,7 @@
 					"assessment": "shape",
 					"result": "flat",
 					"classification": "normal"
-				}
-			]
+				}]
 			},
 			{
 				"lowerExtremities": [{
@@ -243,7 +242,7 @@
 				}
 			],
 			"abdomen": [{
-        		"assessment": "abdomen",
+				"assessment": "abdomen",
 				"result": "no swelling, not tender",
 				"classification": "normal"
 			}],
@@ -334,7 +333,7 @@
 				},
 				{
 					"assessment": "ammonia",
-					"result": "25 μmol/L",
+					"result": "25 micromole/L",
 					"classification": "normal"
 				},
 				{

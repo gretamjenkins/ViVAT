@@ -296,98 +296,96 @@
 						"classification": "normal"
 					}
 				],
-				"labs": [{
-						"cbc": [{
-								"assessment": "wbc",
-								"result": "5x10^9/L",
-								"classification": "normal"
-							},
-							{
-								"assessment": "hgb",
-								"result": "14 g/dL",
-								"classification": "normal"
-							},
-							{
-								"assessment": "hct",
-								"result": "41%",
-								"classification": "normal"
-							},
-							{
-								"assessment": "platelets",
-								"result": "200X10^9/L",
-								"classification": "normal"
-							}
-						]
-					},
-					{
-						"electrolytes": [{
-								"assessment": "na",
-								"result": "138 mmol/L",
-								"classification": "normal"
-							},
-							{
-								"assessment": "potassium",
-								"result": "4.7 mmol/L",
-								"classification": "normal"
-							}
-						]
-					},
-					{
-						"assessment": "glucose",
-						"result": "92 mg/dL",
-						"classification": "normal"
-					},
-					{
-						"assessment": "creatinine",
-						"result": "1.0 mg/dL",
-						"classification": "normal"
-					},
-					{
-						"assessment": "ammonia",
-						"result": "25 micromole/L",
-						"classification": "normal"
-					},
-					{
-						"assessment": "bloodUreaNitrogen",
-						"result": "9 mg/dL",
-						"classification": "normal"
-					},
-					{
-						"assessment": "pt",
-						"result": "11 seconds",
-						"classification": "normal"
-					},
-					{
-						"assessment": "hgbA1C",
-						"result": "6%",
-						"classification": "normal"
-					},
-					{
-						"assessment": "aPTT",
-						"result": "25 seconds",
-						"classification": "normal"
-					},
-					{
-						"assessment": "inr",
-						"result": "1.1",
-						"classification": "normal"
-					},
-					{
-						"assessment": "magnesium",
-						"result": "1.6 mEq/L",
-						"classification": "normal"
-					},
-					{
-						"assessment": "calcium",
-						"result": "10 mg/dL",
-						"classification": "normal"
-					},
-					{
-						"assessment": "troponin",
-						"result": "0.3 ng/mL",
-						"classification": "normal"
-					}
-				]
+				"labs": {
+					"cbc": [{
+							"assessment": "wbc",
+							"result": "5x10^9/L",
+							"classification": "normal"
+						},
+						{
+							"assessment": "hgb",
+							"result": "14 g/dL",
+							"classification": "normal"
+						},
+						{
+							"assessment": "hct",
+							"result": "41%",
+							"classification": "normal"
+						},
+						{
+							"assessment": "platelets",
+							"result": "200X10^9/L",
+							"classification": "normal"
+						}
+					],
+					"electrolytes": [{
+							"assessment": "na",
+							"result": "138 mmol/L",
+							"classification": "normal"
+						},
+						{
+							"assessment": "potassium",
+							"result": "4.7 mmol/L",
+							"classification": "normal"
+						}
+					],
+					"additional": [{
+							"assessment": "glucose",
+							"result": "92 mg/dL",
+							"classification": "normal"
+						},
+						{
+							"assessment": "creatinine",
+							"result": "1.0 mg/dL",
+							"classification": "normal"
+						},
+						{
+							"assessment": "ammonia",
+							"result": "25 micromole/L",
+							"classification": "normal"
+						},
+						{
+							"assessment": "bloodUreaNitrogen",
+							"result": "9 mg/dL",
+							"classification": "normal"
+						},
+						{
+							"assessment": "pt",
+							"result": "11 seconds",
+							"classification": "normal"
+						},
+						{
+							"assessment": "hgbA1C",
+							"result": "6%",
+							"classification": "normal"
+						},
+						{
+							"assessment": "aPTT",
+							"result": "25 seconds",
+							"classification": "normal"
+						},
+						{
+							"assessment": "inr",
+							"result": "1.1",
+							"classification": "normal"
+						},
+						{
+							"assessment": "magnesium",
+							"result": "1.6 mEq/L",
+							"classification": "normal"
+						},
+						{
+							"assessment": "calcium",
+							"result": "10 mg/dL",
+							"classification": "normal"
+						},
+						{
+							"assessment": "troponin",
+							"result": "0.3 ng/mL",
+							"classification": "normal"
+						}
+					]
+				}
 			}
 		}
 	}

@@ -129,6 +129,11 @@
 					"classification": "normal"
 				},
 				{
+					"assessment": "lips",
+					"result": "normal",
+					"classification": "normal"
+				},
+				{
 					"assessment": "ears",
 					"result": "normal",
 					"classification": "normal"

@@ -37,6 +37,36 @@
 					"assessment": "stroke",
 					"result": "none",
 					"classification": "normal"
+				},
+				{
+					"assessment": "drugAlcoholUse",
+					"result": "none",
+					"classification": "normal"
+				},
+				{
+					"assessment": "tobaccoUse",
+					"result": "none",
+					"classification": "normal"
+				},
+				{
+					"assessment": "highBloodPressure",
+					"result": "none",
+					"classification": "normal"
+				},
+				{
+					"assessment": "familyDiseases",
+					"result": "none",
+					"classification": "normal"
+				},
+				{
+					"assessment": "allergies",
+					"result": "none",
+					"classification": "normal"
+				},
+				{
+					"assessment": "currentMedications",
+					"result": "none",
+					"classification": "normal"
 				}
 			],
 			"pain": [{

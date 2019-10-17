@@ -13,6 +13,11 @@
 					"classification": "normal"
 				},
 				{
+					"assessment": "sex",
+					"result": "female",
+					"classification": "unclassified"
+				},
+				{
 					"assessment": "reasonForVisit",
 					"result": "none",
 					"classification": "normal"

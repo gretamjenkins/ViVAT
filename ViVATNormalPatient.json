@@ -4,13 +4,13 @@
 		"ask": {
 			"personal": [{
 					"assessment": "fullName",
-					"result": "Carla Rodgers",
+					"result": "Ima Knotwell: Alert, Oriented to person, place, time",
 					"classification": "normal"
 				},
 				{
 					"assessment": "dob",
-					"result": "08051993",
-					"classification": "normal"
+					"result": "01/14/1992",
+					"classification": "unclassified"
 				},
 				{
 					"assessment": "sex",
@@ -19,22 +19,12 @@
 				},
 				{
 					"assessment": "chiefComplaint",
-					"result": "none",
+					"result": "Routine checkup",
 					"classification": "normal"
 				}
 			],
 			"history": [{
-					"assessment": "cardiac",
-					"result": "none",
-					"classification": "normal"
-				},
-				{
-					"assessment": "respiratory",
-					"result": "none",
-					"classification": "normal"
-				},
-				{
-					"assessment": "stroke",
+					"assessment": "PMHx",
 					"result": "none",
 					"classification": "normal"
 				},
@@ -54,13 +44,13 @@
 					"classification": "normal"
 				},
 				{
-					"assessment": "familyDiseases",
+					"assessment": "familyHx",
 					"result": "none",
 					"classification": "normal"
 				},
 				{
 					"assessment": "allergies",
-					"result": "none",
+					"result": "No Known Drug Allergies (NKDA)",
 					"classification": "normal"
 				},
 				{
@@ -70,8 +60,8 @@
 				}
 			],
 			"pain": [{
-					"assessment": "howFeeling",
-					"result": "well",
+					"assessment": "anyPain",
+					"result": "none",
 					"classification": "normal"
 				},
 				{
@@ -81,61 +71,50 @@
 				},
 				{
 					"assessment": "painLevel",
-					"result": 2,
+					"result": "none",
 					"classification": "normal"
 				},
 				{
 					"assessment": "painStarted",
-					"result": "no pain",
-					"classification": "normal"
-				},
-				{
-					"assessment": "painRadiation",
-					"result": "none",
+					"result": "N/A",
 					"classification": "normal"
 				},
 				{
 					"assessment": "painType",
-					"result": "none",
+					"result": "N/A",
+					"classification": "normal"
+				},
+				{
+					"assessment": "painRadiation",
+					"result": "N/A",
 					"classification": "normal"
 				}
 			],
-			"cognitive": [{
-					"assessment": "knowsName",
-					"result": true,
-					"classification": "normal"
-				},
-				{
-					"assessment": "knowsDOB",
-					"result": true,
-					"classification": "normal"
-				},
-				{
-					"assessment": "knowsPresentLocation",
-					"result": true,
-					"classification": "normal"
-				}
-			]
 		},
 		"inspect": {
 			"headNeck": [{
+					"assessment": "face",
+					"result": "pink, warm, dry",
+					"classification": "normal"
+				},
+				{
 					"assessment": "throat",
-					"result": "pink, no swelling",
+					"result": "pink, moist, intact",
 					"classification": "normal"
 				},
 				{
 					"assessment": "eyes",
-					"result": "normal",
+					"result": "white sclera, pink conjunctiva, no redness, swelling, or drainage",
 					"classification": "normal"
 				},
 				{
 					"assessment": "lips",
-					"result": "normal",
+					"result": "pink, intact",
 					"classification": "normal"
 				},
 				{
 					"assessment": "ears",
-					"result": "normal",
+					"result": "intact, no lesions, drainage",
 					"classification": "normal"
 				},
 				{
@@ -145,70 +124,95 @@
 				},
 				{
 					"assessment": "rightSideNeck",
-					"result": "no distention",
+					"result": "bilateral symmetry, no noted jugular vein distention",
 					"classification": "normal"
 				}
 			],
 			"cranialNerves": [{
 					"assessment": "pupils",
-					"result": "equal, round, symmetric, reactive to light",
+					"result": "pupils equal round, react to light bilaterally, accommodate (CN 3)",
 					"classification": "normal"
 				},
 				{
 					"assessment": "pupilsFollowFinger",
-					"result": true,
+					"result": "EOMs intact (CN 3,4, & 6)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "smell",
+					"result": "intact (CN 1)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "visualAcuity",
+					"result": "intact (CN 2)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "clinchTeeth",
+					"result": "symmetrical (CN 5)",
 					"classification": "normal"
 				},
 				{
 					"assessment": "stickOutTongue",
-					"result": "midline",
+					"result": "tongue midline, moves right & left (CN 12)",
 					"classification": "normal"
 				},
 				{
 					"assessment": "sayAh",
-					"result": "uvula midline",
+					"result": "uvula midline & gag (CN 9 & 10)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "creaseForehead",
+					"result": "intact (CN 7)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "squintEyes",
+					"result": "intact (CN 7)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "puffCheeks",
+					"result": "intact (CN 7)",
 					"classification": "normal"
 				},
 				{
 					"assessment": "smile",
-					"result": "symmetric",
+					"result": "symmetrical (CN 7)",
 					"classification": "normal"
 				},
 				{
 					"assessment": "shrugShoulders",
-					"result": "equal, bilateral",
+					"result": "equal strength bilaterally (CN 11)",
 					"classification": "normal"
 				},
 				{
 					"assessment": "whisperRight",
-					"result": "accurately repeats word",
+					"result": "repeats whispered words accurately (CN 8)",
 					"classification": "normal"
 				},
 				{
 					"assessment": "whisperLeft",
-					"result": "accurately repeats word",
-					"classification": "normal"
-				},
-				{
-					"assessment": "smellAlcoholWipe",
-					"result": "accurately identifies smell",
+					"result": "repeats whispered words accurately (CN 8)",
 					"classification": "normal"
 				}
 			],
 			"chest": [{
 					"assessment": "color",
-					"result": "pink",
+					"result": "pink undertones, warm, dry",
 					"classification": "normal"
 				},
 				{
 					"assessment": "rise",
-					"result": "symmetric",
+					"result": "bilateral symmetry",
 					"classification": "normal"
 				}
 			],
 			"upperExtremities": [{
 					"assessment": "color",
-					"result": "pink",
+					"result": "pink undertones, warm, dry",
 					"classification": "normal"
 				},
 				{
@@ -224,12 +228,12 @@
 			],
 			"abdomen": [{
 				"assessment": "shape",
-				"result": "flat",
+				"result": "soft, flat, non-tender",
 				"classification": "normal"
 			}],
 			"lowerExtremities": [{
 					"assessment": "color",
-					"result": "pink",
+					"result": "pink undertones, warm, dry",
 					"classification": "normal"
 				},
 				{
@@ -246,35 +250,35 @@
 		},
 		"auscultate": [{
 				"assessment": "heart",
-				"result": "lub-dub",
+				"result": "S1S2 without murmur (Aortic, pulmonic, tricuspid, mitral areas)",
 				"classification": "normal"
 			},
 			{
 				"assessment": "lungs",
-				"result": "clear",
+				"result": "barrel chest, coarse non-productive cough, BS crackles to bases bilateral, denies SOB",
 				"classification": "normal"
 			},
 			{
 				"assessment": "abdomen",
-				"result": "gurgling",
+				"result": "bowel sounds present x4 quadrants",
 				"classification": "normal"
 			}
 		],
 		"palpate": {
 			"headNeck": [{
 					"assessment": "carotid",
-					"result": "pulse present",
+					"result": "strong, +2, equal bilateral",
 					"classification": "normal"
 				},
 				{
 					"assessment": "lymphNodes",
-					"result": "not swollen or tender",
+					"result": "no swelling or tenderness",
 					"classification": "normal"
 				}
 			],
 			"upperExtremities": [{
-					"assessment": "pulse",
-					"result": "present, strong",
+					"assessment": "radialPulse",
+					"result": " +2, equal bilateral",
 					"classification": "normal"
 				},
 				{
@@ -283,29 +287,44 @@
 					"classification": "normal"
 				},
 				{
-					"assessment": "strengthCheck",
-					"result": "equal +2 grasp",
+					"assessment": "handGrasp",
+					"result": "equal strength bilateral",
 					"classification": "normal"
 				},
 				{
 					"assessment": "capillaryRefillTime",
-					"result": "2 seconds",
+					"result": "brisk, < 3 seconds",
 					"classification": "normal"
 				}
 			],
 			"abdomen": [{
 				"assessment": "abdomen",
-				"result": "no swelling, not tender",
+				"result": "soft, non-tender",
 				"classification": "normal"
 			}],
 			"lowerExtremities": [{
+					"assessment": "dorsalisPedalPulse",
+					"result": " +2, equal bilateral",
+					"classification": "normal"
+				},
+				{
+					"assessment": "posteriorTibialPulse",
+					"result": " +2, equal bilateral",
+					"classification": "normal"
+				},
+				{
 					"assessment": "skin",
-					"result": "warm, dry",
+					"result": "pink undertones, warm, dry",
+					"classification": "normal"
+				},s
+				{
+					"assessment": "footStrength",
+					"result": "equal strength bilateral",
 					"classification": "normal"
 				},
 				{
 					"assessment": "capillaryRefillTime",
-					"result": "2 seconds",
+					"result": "brisk, < 3 seconds",
 					"classification": "normal"
 				}
 			]

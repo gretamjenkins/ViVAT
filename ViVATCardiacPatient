@@ -1,0 +1,447 @@
+{
+	"patient": {
+		"condition": "cardiac",
+		"ask": {
+			"personal": [{
+					"assessment": "fullName",
+					"result": "Ima Knotwell: Alert, Oriented to person, place, time",
+					"classification": "normal"
+				},
+				{
+					"assessment": "dob",
+					"result": "01/14/1992",
+					"classification": "unclassified"
+				},
+				{
+					"assessment": "sex",
+					"result": "female",
+					"classification": "unclassified"
+				},
+				{
+					"assessment": "chiefComplaint",
+					"result": "unrelieved indigestion x2 days",
+					"classification": "abnormal"
+				}
+			],
+			"history": [{
+					"assessment": "PMHx",
+					"result": "HTN, Obesity, COPD, CPAP at night",
+					"classification": "abnormal"
+				},
+				{
+					"assessment": "drugAlcoholUse",
+					"result": "none",
+					"classification": "normal"
+				},
+				{
+					"assessment": "tobaccoUse",
+					"result": "2ppd smoker x20 years",
+					"classification": "abnormal"
+				},
+				{
+					"assessment": "highBloodPressure",
+					"result": "none",
+					"classification": "normal"
+				},
+				{
+					"assessment": "familyHx",
+					"result": "none",
+					"classification": "normal"
+				},
+				{
+					"assessment": "allergies",
+					"result": "No Known Drug Allergies (NKDA)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "currentMedications",
+					"result": "Lisinopril, Singulair, TUMS, Albuterol nebs",
+					"classification": "normal"
+				}
+			],
+			"pain": [{
+					"assessment": "anyPain",
+					"result": "Loud, irritable, 'My stomach is upset. I'm fine. I want to go out for a cigarette.'",
+					"classification": "abnormal"
+				},
+				{
+					"assessment": "painLocation",
+					"result": "stomach",
+					"classification": "abnormal"
+				},
+				{
+					"assessment": "painLevel",
+					"result": "2",
+					"classification": "abnormal"
+				},
+				{
+					"assessment": "painStarted",
+					"result": "2 days ago",
+					"classification": "abnormal"
+				},
+				{
+					"assessment": "painType",
+					"result": "burning",
+					"classification": "abnormal"
+				},
+				{
+					"assessment": "painRadiation",
+					"result": "no",
+					"classification": "normal"
+				}
+			],
+		},
+		"inspect": {
+			"headNeck": [{
+					"assessment": "face",
+					"result": "pink, warm, dry",
+					"classification": "normal"
+				},
+				{
+					"assessment": "throat",
+					"result": "pink, moist, intact",
+					"classification": "normal"
+				},
+				{
+					"assessment": "eyes",
+					"result": "white sclera, pink conjunctiva, no redness, swelling, or drainage",
+					"classification": "normal"
+				},
+				{
+					"assessment": "lips",
+					"result": "pink, intact",
+					"classification": "normal"
+				},
+				{
+					"assessment": "ears",
+					"result": "intact, no lesions, drainage",
+					"classification": "normal"
+				},
+				{
+					"assessment": "trachea",
+					"result": "midline",
+					"classification": "normal"
+				},
+				{
+					"assessment": "rightSideNeck",
+					"result": "bilateral symmetry, no noted jugular vein distention",
+					"classification": "normal"
+				}
+			],
+			"cranialNerves": [{
+					"assessment": "pupils",
+					"result": "pupils equal round, react to light bilaterally, accommodate (CN 3)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "pupilsFollowFinger",
+					"result": "EOMs intact (CN 3,4, & 6)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "smell",
+					"result": "intact (CN 1)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "visualAcuity",
+					"result": "intact (CN 2)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "clinchTeeth",
+					"result": "symmetrical (CN 5)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "stickOutTongue",
+					"result": "tongue midline, moves right & left (CN 12)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "sayAh",
+					"result": "uvula midline & gag (CN 9 & 10)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "creaseForehead",
+					"result": "intact (CN 7)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "squintEyes",
+					"result": "intact (CN 7)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "puffCheeks",
+					"result": "intact (CN 7)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "smile",
+					"result": "symmetrical (CN 7)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "shrugShoulders",
+					"result": "equal strength bilaterally (CN 11)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "whisperRight",
+					"result": "repeats whispered words accurately (CN 8)",
+					"classification": "normal"
+				},
+				{
+					"assessment": "whisperLeft",
+					"result": "repeats whispered words accurately (CN 8)",
+					"classification": "normal"
+				}
+			],
+			"chest": [{
+					"assessment": "color",
+					"result": "pink undertones, warm, dry",
+					"classification": "normal"
+				},
+				{
+					"assessment": "rise",
+					"result": "bilateral symmetry",
+					"classification": "normal"
+				}
+			],
+			"upperExtremities": [{
+					"assessment": "color",
+					"result": "pink undertones, warm, dry",
+					"classification": "normal"
+				},
+				{
+					"assessment": "edema",
+					"result": "none",
+					"classification": "normal"
+				},
+				{
+					"assessment": "bruising",
+					"result": "none",
+					"classification": "normal"
+				}
+			],
+			"abdomen": [{
+				"assessment": "shape",
+				"result": "soft, flat, non-tender",
+				"classification": "normal"
+			}],
+			"lowerExtremities": [{
+					"assessment": "color",
+					"result": "pink undertones, warm, dry",
+					"classification": "normal"
+				},
+				{
+					"assessment": "edema",
+					"result": "none",
+					"classification": "normal"
+				},
+				{
+					"assessment": "bruising",
+					"result": "none",
+					"classification": "normal"
+				}
+			]
+		},
+		"auscultate": [{
+				"assessment": "heart",
+				"result": "S1S2 without murmur (Aortic, pulmonic, tricuspid, mitral areas)",
+				"classification": "normal"
+			},
+			{
+				"assessment": "lungs",
+				"result": "barrel chest, coarse non-productive cough, BS crackles to bases bilateral, denies SOB",
+				"classification": "normal"
+			},
+			{
+				"assessment": "abdomen",
+				"result": "bowel sounds present x4 quadrants",
+				"classification": "normal"
+			}
+		],
+		"palpate": {
+			"headNeck": [{
+					"assessment": "carotid",
+					"result": "strong, +2, equal bilateral",
+					"classification": "normal"
+				},
+				{
+					"assessment": "lymphNodes",
+					"result": "no swelling or tenderness",
+					"classification": "normal"
+				}
+			],
+			"upperExtremities": [{
+					"assessment": "radialPulse",
+					"result": " +2, equal bilateral",
+					"classification": "normal"
+				},
+				{
+					"assessment": "skin",
+					"result": "warm, dry",
+					"classification": "normal"
+				},
+				{
+					"assessment": "handGrasp",
+					"result": "equal strength bilateral",
+					"classification": "normal"
+				},
+				{
+					"assessment": "capillaryRefillTime",
+					"result": "brisk, < 3 seconds",
+					"classification": "normal"
+				}
+			],
+			"abdomen": [{
+				"assessment": "abdomen",
+				"result": "Soft, LUQ burning",
+				"classification": "abnormal"
+			}],
+			"lowerExtremities": [{
+					"assessment": "dorsalisPedalPulse",
+					"result": " +2, equal bilateral",
+					"classification": "normal"
+				},
+				{
+					"assessment": "posteriorTibialPulse",
+					"result": " +2, equal bilateral",
+					"classification": "normal"
+				},
+				{
+					"assessment": "skin",
+					"result": "pink undertones, warm, dry",
+					"classification": "normal"
+				},
+				{
+					"assessment": "footStrength",
+					"result": "equal strength bilateral",
+					"classification": "normal"
+				},
+				{
+					"assessment": "capillaryRefillTime",
+					"result": "brisk, < 3 seconds",
+					"classification": "normal"
+				}
+			]
+		},
+		"diagnostics": {
+			"vitals": [{
+					"assessment": "heartRate",
+					"result": "80 bpm",
+					"classification": "normal"
+				},
+				{
+					"assessment": "respiratoryRate",
+					"result": "14 rpm",
+					"classification": "normal"
+				},
+				{
+					"assessment": "O2",
+					"result": 90,
+					"classification": "abnormal"
+				},
+				{
+					"assessment": "temperature",
+					"result": "98.2 F",
+					"classification": "normal"
+				},
+				{
+					"assessment": "bloodPressure",
+					"result": "200/124",
+					"classification": "abnormal"
+				}
+			],
+			"labs": [{
+					"assessment": "wbc",
+					"result": "5x10^9/L",
+					"classification": "normal"
+				},
+				{
+					"assessment": "hgb",
+					"result": "14 g/dL",
+					"classification": "normal"
+				},
+				{
+					"assessment": "hct",
+					"result": "41%",
+					"classification": "normal"
+				},
+				{
+					"assessment": "platelets",
+					"result": "200X10^9/L",
+					"classification": "normal"
+				},
+				{
+					"assessment": "na",
+					"result": "138 mmol/L",
+					"classification": "normal"
+				},
+				{
+					"assessment": "potassium",
+					"result": "4.7 mmol/L",
+					"classification": "normal"
+				},
+				{
+					"assessment": "glucose",
+					"result": "92 mg/dL",
+					"classification": "normal"
+				},
+				{
+					"assessment": "creatinine",
+					"result": "1.0 mg/dL",
+					"classification": "normal"
+				},
+				{
+					"assessment": "ammonia",
+					"result": "25 micromole/L",
+					"classification": "normal"
+				},
+				{
+					"assessment": "bloodUreaNitrogen",
+					"result": "9 mg/dL",
+					"classification": "normal"
+				},
+				{
+					"assessment": "pt",
+					"result": "11 seconds",
+					"classification": "normal"
+				},
+				{
+					"assessment": "hgbA1C",
+					"result": "6%",
+					"classification": "normal"
+				},
+				{
+					"assessment": "aPTT",
+					"result": "25 seconds",
+					"classification": "normal"
+				},
+				{
+					"assessment": "inr",
+					"result": "1.1",
+					"classification": "normal"
+				},
+				{
+					"assessment": "magnesium",
+					"result": "1.6 mEq/L",
+					"classification": "normal"
+				},
+				{
+					"assessment": "calcium",
+					"result": "10 mg/dL",
+					"classification": "normal"
+				},
+				{
+					"assessment": "troponin",
+					"result": "0.3 ng/mL",
+					"classification": "normal"
+				}
+			]
+		}
+	}
+}

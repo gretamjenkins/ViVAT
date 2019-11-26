@@ -1,6 +1,6 @@
 {
 	"patient": {
-		"condition": "normal",
+		"condition": "neuro",
 		"ask": {
 			"personal": [{
 					"assessment": "fullName",
@@ -19,8 +19,8 @@
 				},
 				{
 					"assessment": "chiefComplaint",
-					"result": "routine checkup",
-					"classification": "normal"
+					"result": "confusion",
+					"classification": "abnormal"
 				}
 			],
 			"history": [{
@@ -30,18 +30,18 @@
 				},
 				{
 					"assessment": "drugAlcoholUse",
-					"result": "none",
-					"classification": "normal"
+					"result": "x1-2 beer daily",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "tobaccoUse",
-					"result": "none",
-					"classification": "normal"
+					"result": "2ppd x30 years",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "highBloodPressure",
-					"result": "none",
-					"classification": "normal"
+					"result": "yes",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "familyHx",
@@ -55,8 +55,8 @@
 				},
 				{
 					"assessment": "currentMedications",
-					"result": "none",
-					"classification": "normal"
+					"result": "Lisinopril, Albuterol, Singular, Lasix, Aspirin, Ginseng, Fish Oil",
+					"classification": "abnormal"
 				}
 			],
 			"pain": [{

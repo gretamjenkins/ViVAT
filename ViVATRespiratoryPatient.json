@@ -1,11 +1,11 @@
 {
 	"patient": {
-		"condition": "normal",
+		"condition": "respiratory",
 		"ask": {
 			"personal": [{
 					"assessment": "fullName",
-					"result": "Ima Knotwell: Alert, Oriented to person, place, time",
-					"classification": "normal"
+					"result": "Ima Knotwell: Awake, appears tired. Oriented to person, place, time",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "dob",
@@ -19,14 +19,14 @@
 				},
 				{
 					"assessment": "chiefComplaint",
-					"result": "routine checkup",
+					"result": "Breathing difficulties",
 					"classification": "normal"
 				}
 			],
 			"history": [{
 					"assessment": "PMHx",
-					"result": "none",
-					"classification": "normal"
+					"result": "Obesity, COPD, CAD, MI in 2014, CABG x2 in 2014",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "drugAlcoholUse",
@@ -35,8 +35,8 @@
 				},
 				{
 					"assessment": "tobaccoUse",
-					"result": "none",
-					"classification": "normal"
+					"result": "1 ppd x 30 years",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "highBloodPressure",
@@ -61,8 +61,8 @@
 			],
 			"pain": [{
 					"assessment": "anyPain",
-					"result": "none",
-					"classification": "normal"
+					"result": "'Fine' short, one word sentences. Sitting in tripod position.",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "painLocation",
@@ -94,8 +94,8 @@
 		"inspect": {
 			"headNeck": [{
 					"assessment": "face",
-					"result": "pink, warm, dry",
-					"classification": "normal"
+					"result": "gray color, skin warm, slightly diaphoretic",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "throat",
@@ -206,8 +206,8 @@
 				},
 				{
 					"assessment": "rise",
-					"result": "bilateral symmetry",
-					"classification": "normal"
+					"result": "barrel chest, symmetrical",
+					"classification": "abnormal"
 				}
 			],
 			"upperExtremities": [{
@@ -228,8 +228,8 @@
 			],
 			"abdomen": [{
 				"assessment": "shape",
-				"result": "soft, flat, non-tender",
-				"classification": "normal"
+				"result": "rounded, firm, non-tender",
+				"classification": "abnormal"
 			}],
 			"lowerExtremities": [{
 					"assessment": "color",
@@ -250,13 +250,13 @@
 		},
 		"auscultate": [{
 				"assessment": "heart",
-				"result": "S1S2 without murmur (Aortic, pulmonic, tricuspid, mitral areas)",
-				"classification": "normal"
+				"result": "S1S2  + murmur ",
+				"classification": "abnormal"
 			},
 			{
 				"assessment": "lungs",
-				"result": "barrel chest, coarse non-productive cough, BS crackles to bases bilateral, denies SOB",
-				"classification": "normal"
+				"result": "loud prolonged expiration, grunting, pursed lip breathing, Denies SOB",
+				"classification": "abnormal"
 			},
 			{
 				"assessment": "abdomen",
@@ -283,8 +283,8 @@
 				},
 				{
 					"assessment": "skin",
-					"result": "warm, dry",
-					"classification": "normal"
+					"result": "clubbed fingernails",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "handGrasp",
@@ -293,8 +293,8 @@
 				},
 				{
 					"assessment": "capillaryRefillTime",
-					"result": "brisk, < 3 seconds",
-					"classification": "normal"
+					"result": "CRT = 5 sec, slightly cyanotic fingers",
+					"classification": "abnormal"
 				}
 			],
 			"abdomen": [{
@@ -314,8 +314,8 @@
 				},
 				{
 					"assessment": "skin",
-					"result": "pink undertones, warm, dry",
-					"classification": "normal"
+					"result": "non-pitting edema to mid shins bilateral, warm, dry",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "footStrength",
@@ -332,28 +332,28 @@
 		"diagnostics": {
 			"vitals": [{
 					"assessment": "heartRate",
-					"result": "80 bpm",
-					"classification": "normal"
+					"result": "116 bpm",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "respiratoryRate",
-					"result": "14 rpm",
-					"classification": "normal"
+					"result": "34 rpm",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "O2",
-					"result": 95,
-					"classification": "normal"
+					"result": 89,
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "temperature",
-					"result": "98.4 f",
-					"classification": "normal"
+					"result": "99.2 f",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "bloodPressure",
-					"result": "120/80",
-					"classification": "normal"
+					"result": "156/78",
+					"classification": "abnormal"
 				}
 			],
 			"labs": [{

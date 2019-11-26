@@ -1,6 +1,6 @@
 {
 	"patient": {
-		"condition": "normal",
+		"condition": "infection",
 		"ask": {
 			"personal": [{
 					"assessment": "fullName",
@@ -19,8 +19,8 @@
 				},
 				{
 					"assessment": "chiefComplaint",
-					"result": "routine checkup",
-					"classification": "normal"
+					"result": "lower back pain",
+					"classification": "abnormal"
 				}
 			],
 			"history": [{
@@ -61,32 +61,32 @@
 			],
 			"pain": [{
 					"assessment": "anyPain",
-					"result": "none",
-					"classification": "normal"
+					"result": "uncomfortable, in pain, can't sit down",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "painLocation",
-					"result": "NA",
-					"classification": "normal"
+					"result": "lower back",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "painLevel",
-					"result": 0,
-					"classification": "normal"
+					"result": 9,
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "painStarted",
-					"result": "N/A",
-					"classification": "normal"
+					"result": "2 weeks ago",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "painType",
-					"result": "N/A",
-					"classification": "normal"
+					"result": "sharp, achy",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "painRadiation",
-					"result": "N/A",
+					"result": "no",
 					"classification": "normal"
 				}
 			],
@@ -299,8 +299,8 @@
 			],
 			"abdomen": [{
 				"assessment": "abdomen",
-				"result": "soft, non-tender",
-				"classification": "normal"
+				"result": "soft, non-tender, + CVA tenderness",
+				"classification": "abnormal"
 			}],
 			"lowerExtremities": [{
 					"assessment": "dorsalisPedalPulse",
@@ -332,13 +332,13 @@
 		"diagnostics": {
 			"vitals": [{
 					"assessment": "heartRate",
-					"result": "80 bpm",
-					"classification": "normal"
+					"result": "118 bpm",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "respiratoryRate",
-					"result": "14 rpm",
-					"classification": "normal"
+					"result": "24 rpm",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "O2",
@@ -347,13 +347,13 @@
 				},
 				{
 					"assessment": "temperature",
-					"result": "98.4 f",
-					"classification": "normal"
+					"result": "103.3 f",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "bloodPressure",
-					"result": "120/80",
-					"classification": "normal"
+					"result": "132/84",
+					"classification": "abnormal"
 				}
 			],
 			"labs": [{

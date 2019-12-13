@@ -39,11 +39,6 @@
 					"classification": "abnormal"
 				},
 				{
-					"assessment": "highBloodPressure",
-					"result": "yes",
-					"classification": "abnormal"
-				},
-				{
 					"assessment": "familyHx",
 					"result": "none",
 					"classification": "normal"

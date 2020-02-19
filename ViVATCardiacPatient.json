@@ -1,11 +1,11 @@
 {
 	"patient": {
-		"condition": "respiratory",
+		"condition": "cardiac",
 		"ask": {
 			"personal": [{
 					"assessment": "fullName",
-					"result": "Ima Knotwell: Awake, appears tired. Oriented to person, place, time",
-					"classification": "abnormal"
+					"result": "Ima Knotwell: Alert, Oriented to person, place, time",
+					"classification": "normal"
 				},
 				{
 					"assessment": "dob",
@@ -19,13 +19,13 @@
 				},
 				{
 					"assessment": "chiefComplaint",
-					"result": "Breathing difficulties",
-					"classification": "normal"
+					"result": "unrelieved indigestion x2 days",
+					"classification": "abnormal"
 				}
 			],
 			"history": [{
 					"assessment": "PMHx",
-					"result": "Obesity, COPD, CAD, MI in 2014, CABG x2 in 2014",
+					"result": "HTN, Obesity, COPD, CPAP at night",
 					"classification": "abnormal"
 				},
 				{
@@ -40,7 +40,7 @@
 				},
 				{
 					"assessment": "tobaccoUse",
-					"result": "1 ppd x 30 years",
+					"result": "2ppd smoker x20 years",
 					"classification": "abnormal"
 				},
 				{
@@ -55,34 +55,34 @@
 				},
 				{
 					"assessment": "currentMedications",
-					"result": "none",
+					"result": "Lisinopril, Singulair, TUMS, Albuterol nebs",
 					"classification": "normal"
 				}
 			],
 			"pain": [{
 					"assessment": "anyPain",
-					"result": "'Fine' short, one word sentences. Sitting in tripod position.",
+					"result": "Loud, irritable, 'My stomach is upset. I'm fine. I want to go out for a cigarette.'",
 					"classification": "abnormal"
 				},
 				{
 					"assessment": "painLocation",
-					"result": "NA",
-					"classification": "normal"
+					"result": "stomach",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "painLevel",
-					"result": 0,
-					"classification": "normal"
+					"result": 2,
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "painStarted",
-					"result": "N/A",
-					"classification": "normal"
+					"result": "2 days ago",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "painType",
-					"result": "N/A",
-					"classification": "normal"
+					"result": "burning",
+					"classification": "abnormal"
 				},
 				{
 					"assessment": "anythingChangePain",
@@ -91,7 +91,7 @@
 				},
 				{
 					"assessment": "painRadiation",
-					"result": "N/A",
+					"result": "no",
 					"classification": "normal"
 				}
 			],
@@ -99,8 +99,8 @@
 		"inspect": {
 			"headNeck": [{
 					"assessment": "face",
-					"result": "gray color, skin warm, slightly diaphoretic",
-					"classification": "abnormal"
+					"result": "pink, warm, dry",
+					"classification": "normal"
 				},
 				{
 					"assessment": "neckThroat",
@@ -206,8 +206,8 @@
 				},
 				{
 					"assessment": "rise",
-					"result": "barrel chest, symmetrical",
-					"classification": "abnormal"
+					"result": "bilateral symmetry",
+					"classification": "normal"
 				}
 			],
 			"upperExtremities": [{
@@ -228,8 +228,8 @@
 			],
 			"abdomen": [{
 				"assessment": "shape",
-				"result": "rounded, firm, non-tender",
-				"classification": "abnormal"
+				"result": "soft, flat, non-tender",
+				"classification": "normal"
 			}],
 			"lowerExtremities": [{
 					"assessment": "color",
@@ -250,13 +250,13 @@
 		},
 		"auscultate": [{
 				"assessment": "heart",
-				"result": "S1S2  + murmur ",
-				"classification": "abnormal"
+				"result": "S1S2 without murmur (Aortic, pulmonic, tricuspid, mitral areas)",
+				"classification": "normal"
 			},
 			{
 				"assessment": "lungs",
-				"result": "loud prolonged expiration, grunting, pursed lip breathing, Denies SOB",
-				"classification": "abnormal"
+				"result": "barrel chest, coarse non-productive cough, BS crackles to bases bilateral, denies SOB",
+				"classification": "normal"
 			},
 			{
 				"assessment": "abdomen",
@@ -283,8 +283,8 @@
 				},
 				{
 					"assessment": "skin",
-					"result": "clubbed fingernails",
-					"classification": "abnormal"
+					"result": "warm, dry",
+					"classification": "normal"
 				},
 				{
 					"assessment": "handGrasp",
@@ -293,14 +293,14 @@
 				},
 				{
 					"assessment": "capillaryRefillTime",
-					"result": "CRT = 5 sec, slightly cyanotic fingers",
-					"classification": "abnormal"
+					"result": "brisk, < 3 seconds",
+					"classification": "normal"
 				}
 			],
 			"abdomen": [{
 				"assessment": "abdomen",
-				"result": "soft, non-tender",
-				"classification": "normal"
+				"result": "Soft, LUQ burning",
+				"classification": "abnormal"
 			}],
 			"lowerExtremities": [{
 					"assessment": "dorsalisPedalPulse",
@@ -314,8 +314,8 @@
 				},
 				{
 					"assessment": "skin",
-					"result": "non-pitting edema to mid shins bilateral, warm, dry",
-					"classification": "abnormal"
+					"result": "pink undertones, warm, dry",
+					"classification": "normal"
 				},
 				{
 					"assessment": "footStrength",
@@ -332,27 +332,27 @@
 		"diagnostics": {
 			"vitals": [{
 					"assessment": "heartRate",
-					"result": "116 bpm",
-					"classification": "abnormal"
+					"result": "80 bpm",
+					"classification": "normal"
 				},
 				{
 					"assessment": "respiratoryRate",
-					"result": "34 rpm",
-					"classification": "abnormal"
+					"result": "14 rpm",
+					"classification": "normal"
 				},
 				{
 					"assessment": "O2",
-					"result": 89,
+					"result": 90,
 					"classification": "abnormal"
 				},
 				{
 					"assessment": "temperature",
-					"result": "99.2 f",
-					"classification": "abnormal"
+					"result": "98.2 F",
+					"classification": "normal"
 				},
 				{
 					"assessment": "bloodPressure",
-					"result": "156/78",
+					"result": "200/124",
 					"classification": "abnormal"
 				}
 			],

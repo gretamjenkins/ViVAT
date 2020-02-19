@@ -29,6 +29,11 @@
 					"classification": "normal"
 				},
 				{
+					"assessment": "PSHx",
+					"result": "none",
+					"classification": "normal"
+				},
+				{
 					"assessment": "drugAlcoholUse",
 					"result": "none",
 					"classification": "normal"
@@ -80,6 +85,11 @@
 					"classification": "normal"
 				},
 				{
+					"assessment": "anythingChangePain",
+					"result": "N/A",
+					"classification": "normal"
+				},
+				{
 					"assessment": "painRadiation",
 					"result": "N/A",
 					"classification": "normal"
@@ -93,8 +103,8 @@
 					"classification": "normal"
 				},
 				{
-					"assessment": "throat",
-					"result": "pink, moist, intact",
+					"assessment": "neckThroat",
+					"result": "pink, moist, intact, symmetrical, no JVD",
 					"classification": "normal"
 				},
 				{
@@ -115,11 +125,6 @@
 				{
 					"assessment": "trachea",
 					"result": "midline",
-					"classification": "normal"
-				},
-				{
-					"assessment": "rightSideNeck",
-					"result": "bilateral symmetry, no noted jugular vein distention",
 					"classification": "normal"
 				}
 			],
